@@ -1,0 +1,60 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-21T13:57:38.253Z",
+        "line": 3,
+        "name": "Login Functionality",
+        "description": "",
+        "id": "login;login-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1558998000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigates to website of Choonz",
+            "match": {
+              "location": "com.qa.examples.project.choonz.step_definitions.LoginChoonz.userNavigatesToWebsiteOfChoonz()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 170283000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "typing credentials: username and password",
+            "match": {
+              "location": "com.qa.examples.project.choonz.step_definitions.LoginChoonz.typingCredentialsUsernameAndPassword()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 301801000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "login must be successful",
+            "match": {
+              "location": "com.qa.examples.project.choonz.step_definitions.LoginChoonz.loginMustBeSuccessful()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "classpath:features/can-login-on-choonz.feature",
+    "tags": []
+  }
+]
